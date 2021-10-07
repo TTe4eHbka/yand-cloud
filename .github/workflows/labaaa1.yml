@@ -4,4 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo main.py
+      - run: echo docker build ./-t cr.yandex/enpqtub3npm2734cqde9/ubuntu:hello
