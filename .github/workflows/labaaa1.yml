@@ -4,6 +4,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo docker build ./-t cr.yandex/enpqtub3npm2734cqde9/labaaa1:igg
+      - run: echo docker tag ubuntu \cr.yandex/b1goqke68chlqdea3vi8/labaaa1:igg
       - run: echo docker tag labaaa1 \cr.yandex/enpqtub3npm2734cqde9/labaaa1:igg
-      - run: echo 
